@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">hello_appy</string>
+    <string name="title_activity_main">hello_appy</string>
+    <string name="package_name">com.statecert.hello_appy</string>
+    <string name="custom_url_scheme">com.statecert.hello_appy</string>
+</resources>

@@ -9,6 +9,7 @@
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
+    "build.server": "vite build -c adapters/static/vite.config.ts",
     "build.types": "tsc --incremental --noEmit",
     "deploy": "echo 'Run \"npm run qwik add\" to install a server adapter'",
     "dev": "vite --mode ssr",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.2.7",
     "@builder.io/qwik-city": "^1.2.7",
+    "@capacitor/cli": "^5.2.3",
     "@types/eslint": "8.44.1",
     "@types/node": "^20.4.5",
     "@typescript-eslint/eslint-plugin": "6.2.0",
@@ -34,5 +36,11 @@
     "undici": "5.22.1",
     "vite": "4.4.7",
     "vite-tsconfig-paths": "4.2.0"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.2.3",
+    "@capacitor/core": "^5.2.3",
+    "@capacitor/ios": "^5.2.3",
+    "cap": "^0.2.1"
   }
 }
