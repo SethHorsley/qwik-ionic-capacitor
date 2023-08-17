@@ -5,7 +5,9 @@ const config: CapacitorConfig = {
   appName: 'hello_appy',
   webDir: 'dist',
   server: {
-    androidScheme: 'https'
+    androidScheme: 'https',
+    url: "http://localhost:5174/",
+    cleartext: true
   }
 };
 

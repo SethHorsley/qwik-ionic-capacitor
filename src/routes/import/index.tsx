@@ -5,7 +5,10 @@ import { Link } from '@builder.io/qwik-city';
 export default component$(() => {
   return (
     <>
-      <h1>Hi qqqqq👋</h1>
+      <div class="pt-5 border">
+        Import page
+      </div>
+
 
       <div class="text-center">
         <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -14,7 +17,7 @@ export default component$(() => {
         <h3 class="mt-2 text-sm font-semibold text-gray-900">No projects</h3>
         <p class="mt-1 text-sm text-gray-500">Get started by creating a new project.</p>
         <div class="mt-6">
-          <Link href="/import" class="pt-20 border">
+          <Link href="/" class="pt-20 border">
             spa navigation
           </Link>
 
@@ -26,12 +29,6 @@ export default component$(() => {
           </button> */}
         </div>
       </div>
-
-      <p>
-        Can't wait to see what you build with qwik!sss
-        <br />
-        Happy coding.
-      </p>
     </>
   );
 });
